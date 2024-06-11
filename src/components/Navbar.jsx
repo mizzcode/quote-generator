@@ -29,7 +29,7 @@ function Navbar() {
   return (
     <nav className='flex items-center dark:text-white sticky top-0 border-b dark:border-[#192032] pt-6 pb-4 bg-transparent backdrop-blur-sm'>
       <a href='/' className='me-auto ms-7'>
-        <span>quote-generator.netlify.app</span>
+        <span>mizz-quote.netlify.app</span>
       </a>
       <ul className='flex  text-sm font-semibold'>
         <li className='me-10 hover:text-[#0ea5e9]'>
