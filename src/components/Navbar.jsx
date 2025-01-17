@@ -88,7 +88,7 @@ function Navbar() {
           <button className='hidden sm:flex' onClick={handleMode}>
             <img src={isDarkMode ? moonIcon : sunIcon} alt='switch-mode' />
           </button>
-          <a href='https://github.com/mizzcode' target='_blank' rel='noopener noreferrer'>
+          <a href='https://github.com/mizzcode/quote-generator' target='_blank' rel='noopener noreferrer'>
             <img src={isDarkMode ? lightGithubIcon : darkGithubIcon} alt='github' />
           </a>
           <button className='sm:hidden' onClick={handleMenuDots}>
